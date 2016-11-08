@@ -13,8 +13,15 @@
     tools:context="org.goldman_tribe.arthur.plundr.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <EditText android:id="@+id/edit_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:hint="@string/edit_message"/>
+
+    <Button android:id="@+id/start_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/start_button_text"
+        android:onClick="startBrowse"
+        />
 </RelativeLayout>
