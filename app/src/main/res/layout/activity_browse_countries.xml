@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_browse_countries"
     android:layout_width="match_parent"
@@ -8,6 +8,25 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="org.goldman_tribe.arthur.plundr.BrowseCountries">
+    tools:context="org.goldman_tribe.arthur.plundr.BrowseCountries"
+    android:orientation="vertical">
 
-</RelativeLayout>
+    <TextView android:id="@+id/country_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="40sp"
+        android:text="Filler"/>
+
+    <TextView android:id="@+id/country_budget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Filler"/>
+
+    <TextView android:id="@+id/country_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Filler"/>
+</LinearLayout>
