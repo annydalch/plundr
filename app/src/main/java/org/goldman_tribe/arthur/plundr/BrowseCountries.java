@@ -29,5 +29,25 @@ public class BrowseCountries extends AppCompatActivity {
 
         TextView Budget = (TextView)findViewById(R.id.country_budget);
         Budget.setText("$" + Objects.toString(countryDef$$$, null) + " in yearly defense spendings");
+
+        this.findViewById(android.R.id.content).setOnTouchListener(new OnSwipeTouchListener(this) {
+            @Override
+            public void onSwipeRight() {
+                String newCountryName = "Second filler";
+                long newCountryDef$$$ = 10L;
+                String newCountryDescription = "Fill this in";
+                Intent intent = new Intent(getApplicationContext(), BrowseCountries.class);
+                intent.putExtra(MainActivity.COUNTRY_NAME, newCountryName);
+                intent.putExtra(MainActivity.COUNTRY_DEF_$$$, newCountryDef$$$);
+                intent.putExtra(MainActivity.COUNTRY_DESCRIPTION, newCountryDescription);
+                startActivity(intent);
+                finish();
+            }
+            public void onSwipeLeft() {
+                
+            }
+        });
     }
+
+
 }

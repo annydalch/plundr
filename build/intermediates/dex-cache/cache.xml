@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_d5af9cb4cd91b1ede31b09b1fe6597612d24d76a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -34,17 +25,8 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="d8b025b17a53b7c0692e2f1e132a382bb0921a75">
+        sha1="afbd1f5ccea0e7060f331a1501424f165a222d77">
         <dex dex="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2d5fdc652c5290cbbbdc4cb00df206e65bfaef60\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_c76287332fe29e956df4ee905e88cf78ef334990\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -63,6 +45,51 @@
         revision="24.0.3"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
         <dex dex="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_b34ffec573a86b169ae0053f2777a5a0c2085bca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_7c2344f0506fd3fe6da004266acb2d83ce026a69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_289e74d312bc1124a9d3316cc0f6f83453f1f524\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_b0e7393405f1505802439c06f354f07d8b595592\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_d5af9cb4cd91b1ede31b09b1fe6597612d24d76a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_c76287332fe29e956df4ee905e88cf78ef334990\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -88,7 +115,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="b9e5ce0e0152e1c5f25a8050f11578320a91ee85">
+        sha1="bae0097276ec41c441b675cfafc2821c8a8dcd90">
         <dex dex="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0992734dbc1640652ac7ea05d4aabf1b9e3c2e5f\classes.dex" />
     </item>
     <item
@@ -129,39 +156,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_7c2344f0506fd3fe6da004266acb2d83ce026a69\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_be0f2e393a1619192c3f754a640ac1e700276045\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_289e74d312bc1124a9d3316cc0f6f83453f1f524\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_b0e7393405f1505802439c06f354f07d8b595592\classes.dex" />
     </item>
     <item
         is-multidex="true"
