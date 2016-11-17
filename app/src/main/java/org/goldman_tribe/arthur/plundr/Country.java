@@ -5,12 +5,13 @@ package org.goldman_tribe.arthur.plundr;
  */
 
 public class Country {
-
     long defence;
     String resources;
-    public Country(long defenceBudget, String NR, boolean IsImp){
+    String name;
+    public Country(String Name, long defenceBudget, String NR, boolean IsImp){
         defence = defenceBudget;
         resources = NR;
+        name = Name;
 
     }
     public void capture(long offence) {
@@ -18,14 +19,20 @@ public class Country {
         offence = offence + defence;
     }
 public static void main(String[] args) {
-    Country Afganistan = new Country(17418609000L, "natural gas, petroleum, coal, copper, chromite, talc, barites, sulfur, lead, zinc, iron ore, salt, precious and semiprecious stones, arable land", false);
-    Country US = new Country(784740000000L, "coal, copper, lead, molybdenum, phosphates, rare earth elements, uranium, bauxite, gold, iron, mercury, nickel, potash, silver, tungsten, zinc, petroleum, natural gas, timber, arable land", true);
-    Country Sweden = new Country(5222800000L, "iron ore, copper, lead, zinc, gold, silver, tungsten, uranium, arsenic, feldspar, timber, hydropower", false);
-    Country Norway = new Country(5676300000L, "petroleum, natural gas, iron ore, copper, lead, zinc, titanium, pyrites, nickel, fish, timber, hydropower", false);
-    Country IsleOfMan = new Country(0L, "None", false);
-    Country Togo = new Country(174080000L, "phosphates, limestone, marble, arable land", false);
-    Country AtlanticOceon = new Country(0L, "fish and shit"/* Not to be confused with fish and chips*/, false);
-    Country NorfolkIsland = new Country(0L, "fish", false);
+    Country Afganistan = new Country("Afganistan",17418609000L, "natural gas, petroleum, coal, copper, chromite, talc, barites, sulfur, lead, zinc, iron ore, salt, precious and semiprecious stones, arable land", false);
+    Country US = new Country("United States of America", 784740000000L, "coal, copper, lead, molybdenum, phosphates, rare earth elements, uranium, bauxite, gold, iron, mercury, nickel, potash, silver, tungsten, zinc, petroleum, natural gas, timber, arable land", true);
+    Country Sweden = new Country("Sweden" ,5222800000L, "iron ore, copper, lead, zinc, gold, silver, tungsten, uranium, arsenic, feldspar, timber, hydropower", false);
+    Country Norway = new Country("The Kingdom of Norway" ,5676300000L, "petroleum, natural gas, iron ore, copper, lead, zinc, titanium, pyrites, nickel, fish, timber, hydropower", false);
+    Country IsleOfMan = new Country("Isle of Man" ,0L, "null", false);
+    Country Togo = new Country("Togo", 174080000L, "phosphates, limestone, marble, arable land", false);
+    Country AtlanticOcean = new Country("The Atlantic Ocean" ,0L, "fish and shit"/* Not to be confused with fish and chips*/, false);
+    Country NorfolkIsland = new Country("Norfolk Island" ,0L, "fish", false);
+    Country Jersey = new Country("Jersey (no, not that Jersey. The old one.)" ,0L, "arable land", false);
+    Country Austria = new Country("Austria" ,2228050000L, "oil, coal, lignite, timber, iron ore, copper, zinc, antimony, magnesite, tungsten, graphite, salt, hydropower", false);
+    Country AntiguaAndBarbuda = new Country("Antigua and Barbuda" ,0L, "NEGL; pleasant climate fosters tourism, prostitution", false);
+    Country Aruba = new Country("Aruba" ,0L, "NEGL; white sandy beaches foster tourism, transit point for US- and Europe-bound narcotics with some accompanying money-laundering activity; relatively high percentage of population consumes cocaine", false);
+    Country Algeria = new Country("Algeria", 26015360000L, "petroleum, natural gas, iron ore, phosphates, uranium, lead, zinc", false);
+
 
 }
 
