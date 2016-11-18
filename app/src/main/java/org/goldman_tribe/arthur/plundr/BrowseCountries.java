@@ -17,9 +17,9 @@ public class BrowseCountries extends AppCompatActivity {
         setContentView(R.layout.activity_browse_countries);
 
         Intent intent = getIntent();
-        String countryName = intent.getStringExtra(MainActivity.COUNTRY_NAME);
-        long countryDef$$$ = intent.getLongExtra(MainActivity.COUNTRY_DEF_$$$, 0L);
-        String countryDescription = intent.getStringExtra(MainActivity.COUNTRY_DESCRIPTION);
+        final String countryName = intent.getStringExtra(MainActivity.COUNTRY_NAME);
+        final long countryDef$$$ = intent.getLongExtra(MainActivity.COUNTRY_DEF_$$$, 0L);
+        final String countryDescription = intent.getStringExtra(MainActivity.COUNTRY_DESCRIPTION);
 
         TextView Title = (TextView)findViewById(R.id.country_name);
         Title.setText(countryName);
@@ -44,7 +44,10 @@ public class BrowseCountries extends AppCompatActivity {
                 finish();
             }
             public void onSwipeLeft() {
-                
+                Intent intent = new Intent(getApplicationContext(), MatchFound.class);
+                intent.putExtra(MainActivity.COUNTRY_NAME, countryName);
+                startActivity(intent);
+                finish();
             }
         });
     }

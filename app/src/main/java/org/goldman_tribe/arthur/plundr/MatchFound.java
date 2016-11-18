@@ -1,12 +1,14 @@
 package org.goldman_tribe.arthur.plundr;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.TextView;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -89,9 +91,16 @@ public class MatchFound extends AppCompatActivity {
 
         setContentView(R.layout.activity_match_found);
 
+        Intent intent = getIntent();
+
+        final String countryName = intent.getStringExtra(MainActivity.COUNTRY_NAME);
+
         mVisible = true;
         mControlsView = findViewById(R.id.fullscreen_content_controls);
-        mContentView = findViewById(R.id.fullscreen_content);
+        mContentView = findViewById(R.id.fullscreen_title);
+        TextView title = (TextView)findViewById(R.id.fullscreen_title);
+
+        title.setText(intent.getStringExtra(MainActivity.COUNTRY_NAME));
 
 
         // Set up the user interaction to manually show or hide the system UI.
@@ -105,7 +114,7 @@ public class MatchFound extends AppCompatActivity {
         // Upon interacting with UI controls, delay any scheduled hide()
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
-        findViewById(R.id.dummy_button).setOnTouchListener(mDelayHideTouchListener);
+        findViewById(R.id.invade_now).setOnTouchListener(mDelayHideTouchListener);
     }
 
     @Override
