@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="b057bf695907bf0174ec872772fad7995f90c370">
+        sha1="f5c81872a42c0e6ff030cd14df234ad32748c4ee">
         <dex dex="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2d5fdc652c5290cbbbdc4cb00df206e65bfaef60\classes.dex" />
     </item>
     <item
@@ -115,7 +115,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="bbb97ac76cba281e7c462d7a54031f998d43854b">
+        sha1="edfd76df801ce23268894324d823f021bc9b9265">
         <dex dex="C:\cygwin64\home\czolgosz\plundr\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0992734dbc1640652ac7ea05d4aabf1b9e3c2e5f\classes.dex" />
     </item>
     <item

@@ -19,7 +19,7 @@ public class MatchFound extends AppCompatActivity {
      * Whether or not the system UI should be auto-hidden after
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
      */
-    private static final boolean AUTO_HIDE = true;
+    private static final boolean AUTO_HIDE = false;
 
     /**
      * If {@link #AUTO_HIDE} is set, the number of milliseconds to wait after
@@ -85,6 +85,11 @@ public class MatchFound extends AppCompatActivity {
         }
     };
 
+    protected void clickHandler(View view) {
+        finish();
+        //add some real code in here one day
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -141,7 +146,6 @@ public class MatchFound extends AppCompatActivity {
         if (actionBar != null) {
             actionBar.hide();
         }
-        mControlsView.setVisibility(View.GONE);
         mVisible = false;
 
         // Schedule a runnable to remove the status and navigation bar after a delay
