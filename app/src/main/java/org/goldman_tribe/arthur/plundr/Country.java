@@ -1,10 +1,12 @@
 package org.goldman_tribe.arthur.plundr;
 import java.util.ArrayList;
+import java.util.Random;
 /**
  * Created by gnome2 on 10/31/2016.
  */
 
 public class Country {
+    public static Random randomGenerator;
     long defence;
     String resources;
     String name;
@@ -18,6 +20,10 @@ public class Country {
     public void capture(long offence) {
         //the offence variable is a place holder until I determine what it should be called
         offence = offence + defence;
+    }
+    public static Country Pick() {
+        int pick = randomGenerator.nextInt(Countries.size());
+        return Countries.get(pick);
     }
 public static void main(String[] args) {
 
@@ -42,6 +48,8 @@ public static void main(String[] args) {
     for (int i = 0; i < Countries.size(); i++) {
         System.out.println(Countries.get(i).name);
     }
+
+    System.out.println("Random Country = " + Country.Pick().name);
 
     //System.out.println(Countries.get(1).name);
 
