@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/content_main"
@@ -13,15 +13,12 @@
     tools:context="org.goldman_tribe.arthur.plundr.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
 
     <Button android:id="@+id/start_button"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:text="@string/start_button_text"
         android:onClick="startBrowse"
+        android:layout_centerInParent="true"
         />
-</LinearLayout>
+</RelativeLayout>
