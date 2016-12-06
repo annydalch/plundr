@@ -43,6 +43,10 @@ public static void main(String[] args) {
     Country Algeria = new Country("Algeria", 26015360000L, "petroleum, natural gas, iron ore, phosphates, uranium, lead, zinc", false);
     Country Fiji = new Country("Fiji", 118540800L, "timber, fish, gold, copper, offshore oil potential, hydropower", false);
     Country Akrotiri = new Country("Akrotiri", 0L, "null", false);
+    Country SeaLand = new Country("Principality of Sealand", 0L, "Self righteousness", false);
+    Country Canada = new Country("Canada", 16320000000L, "iron ore, nickel, zinc, copper, gold, lead, rare earth elements, molybdenum, potash, diamonds, ice, silver, fish, timber, wildlife, coal, petroleum, natural gas, hydropower", false);
+    Country Egypt = new Country("Egypt", 18444800000L, "petroleum, natural gas, iron ore, phosphates, manganese, sand, limestone, gypsum, talc, asbestos, lead, rare earth elements, zinc", false);
+    Country Mexico = new Country("Mexico", )
 
 
     for (int i = 0; i < Countries.size(); i++) {
