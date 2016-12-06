@@ -23,7 +23,11 @@
             android:name=".MatchFound"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_match_found"
-            android:theme="@style/FullscreenTheme"></activity>
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".OwnedCountries"
+            android:label="@string/title_activity_owned_countries"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
