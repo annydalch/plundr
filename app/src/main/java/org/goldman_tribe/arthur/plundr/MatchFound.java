@@ -12,9 +12,6 @@ import android.widget.TextView;
  */
 public class MatchFound extends AppCompatActivity {
 
-    private View mControlsView;
-
-
     protected void clickHandler(View view) {
         finish();
         //add some real code in here one day
@@ -27,8 +24,7 @@ public class MatchFound extends AppCompatActivity {
         setContentView(R.layout.activity_match_found);
 
         Intent intent = getIntent();
-
-        mControlsView = findViewById(R.id.fullscreen_content_controls);
+        
         TextView title = (TextView)findViewById(R.id.fullscreen_title);
 
         title.setText(intent.getStringExtra(MainActivity.COUNTRY_NAME));
